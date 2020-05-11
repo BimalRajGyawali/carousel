@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.carousel-container{
+   width: 600px;
+   margin: 0 auto;
+   overflow: hidden;   
+}
+.carousel-wrapper{
+    overflow: auto;
+   
+}
+
+.carousel-wrapper img{
+    width: 600px;
+    float: left;
+}
+.indicator-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -30px;
+   
+}
+
+
+.indicator-wrapper div{
+  width: 20px;
+  min-height: 20px; /* use min-height for giving width and height to empty div */
+  background:gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  
+}
+
+.indicator-wrapper .active{
+    background: white;
+}
+
+.arrow{
+    position: relative;
+    display: inline-block;
+}
